@@ -1,14 +1,19 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# Text Editor
 
-## Your Task
+## Table of Contents
 
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
+- [Description](#description)
+- [Acceptance Criteria](acceptance-criteria)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Technologies used](#technologies-used)
+- [Deployed_Link](#deployed-link)
+- [License](#license)
+- [Signature](#signature)
 
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+## Description
 
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
-
-You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
+JATE is a text editor that runs in the browser. Its a single page application that meets the PWA criteria. It could be useful for developers to create notes or code snippets with or without internet connection so that they could reliably retrieve them for later use.
 
 ## User Story
 
@@ -48,32 +53,35 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-## Mock-Up
 
-The following animation demonstrates the application functionality:
+## Installation
 
-![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
+This program can be run through a browser using the link to the the deployed application. Alternatively, to run this application locally you will need to:
 
-The following image shows the application's `manifest.json` file:
+- Clone this repository to receive all of the files.
 
-![Demonstration of the finished Module 19 Challenge with a manifest file in the browser.](./Assets/01-manifest.png)
+- Run "npm install" in the command line of your terminal to set up all of the dependencies.
 
-The following image shows the application's registered service worker:
+- Run "npm start" to start the backend and serve the client.
 
-![Demonstration of the finished Module 19 Challenge with a registered service worker in the browser.](./Assets/02-service-worker.png)
+- Go to the url of the application (http//:localhost:3001) to begin using it.
 
-The following image shows the application's IndexedDB storage:
+## Screenshots
 
-![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
 
-## Review
 
-You are required to submit the following for review:
+## Technologies used
 
-- The URL of the deployed application
+Node.js, Express.js, IndexedDB, PWA, Heroku
 
-- The URL of the GitHub repository, with a unique name and a README describing the project
 
----
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Deployed Link
+
+## License
+
+![badge](https://img.shields.io/badge/MIT-License-blue.svg)
+
+## Signature
+
+GitHub: [NebsterOne](https://github.com/NebsterOne)
