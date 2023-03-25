@@ -7,7 +7,7 @@
 - [Installation](#installation)
 - [Screenshots](#screenshots)
 - [Technologies used](#technologies-used)
-- [Deployed_Link](#deployed-link)
+- [Deployed Link](#deployed-link)
 - [License](#license)
 - [Signature](#signature)
 
@@ -91,7 +91,7 @@ Node.js, Express.js, IndexedDB, PWA, Heroku
 
 ## Deployed Link
 
-[Live Site]https://damp-hollows-29575.herokuapp.com/
+[Live Site](https://damp-hollows-29575.herokuapp.com/)
 
 ## License
 
