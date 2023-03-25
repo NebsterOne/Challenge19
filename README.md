@@ -53,7 +53,6 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-
 ## Installation
 
 This program can be run through a browser using the link to the the deployed application. Alternatively, to run this application locally you will need to:
@@ -68,15 +67,13 @@ This program can be run through a browser using the link to the the deployed app
 
 ## Screenshots
 
-
-
 ## Technologies used
 
 Node.js, Express.js, IndexedDB, PWA, Heroku
 
-
-
 ## Deployed Link
+
+[Live Site]https://damp-hollows-29575.herokuapp.com/
 
 ## License
 
